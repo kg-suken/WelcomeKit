@@ -11,11 +11,11 @@ MMDはMikuMikuDanceの略で3Dモデルのキャラクターを動かしてダ�
 原曲作者:木村有希
 
 ## 内容
-### [Step1.インストール(ここではWindowsを想定)](1-install)
+### [Step1.インストール(ここではWindowsを想定)]
 まずは！[ここ](https://sites.google.com/view/vpvp/)のサイトにアクセスして1.4 MikuMikuDance(64bitOS Ver)を選ぶ  
 ![無題123 (1)](https://github.com/user-attachments/assets/18c4382d-94d7-42db-bf04-45193a49ead8)
 
-### [Step2.起動してみよう](2-LetsTry)
+### [Step2.起動してみよう]
 MikuMikuDance.exeを起動してみようではないか  
 まずは画面説明をするぞ
 ### Step3.ネットワーク上から必要なファイルを持ってこよう
