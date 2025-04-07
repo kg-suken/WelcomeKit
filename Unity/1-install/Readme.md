@@ -22,5 +22,8 @@ Unity Hubの「インストール(英語ならinstalls)」タブを選択し、�
 ## 3.Visual Studio Codeのインストール
 ※PCにすでに「Visual Studio Code」がインストールされている場合は、ここを飛ばしてください。  
 Unity Editorのインストールには時間がかかるので、その間にVisual Studio Codeをインストールしましょう!  
-
-すみません。現在作成中です...
+[VSCodeのインストールサイト](https://code.visualstudio.com/)から、Visual Studio Codeのインストールファイルをダウンロードします。  
+その後、「VSCodeUserSetup-x64-xxx.exe」(xxxはバージョン)を実行し、インストールしてください。  
+途中の設定画面で、「デスクトップ上にアイコンを作成する」を選ぶと、デスクトップの中にVSCodeのショートカットができて、アクセスが早くなります。  
+あとはインストール完了まで待ってください。パスワード入力を求められることはなかった気がします。  
+これで環境構築は完了です。お疲れさまでした!  
