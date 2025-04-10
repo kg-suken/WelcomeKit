@@ -13,7 +13,7 @@ Unity Technologiesが開発したゲームエンジン(ゲーム作成用のツ�
 ## 内容
 ### [1.インストール](https://github.com/kg-suken/WelcomeKit/tree/main/Unity/1-install)  
 Unity Hubと、Unityエディターをダウンロード・インストールします。
-### 2.2Dで早速やってみよう(現在準備中)
+### [2.2Dで早速やってみよう](https://github.com/kg-suken/WelcomeKit/tree/main/Unity/2-LetsTry)
 既存のプロジェクトを読み込み、実際にいろいろやってみます。
 ### 3.3Dにチャレンジ!(現在準備中)
 3Dプロジェクトのテンプレートを読み込み、オブジェクトを配置します。
