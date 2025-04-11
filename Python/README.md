@@ -24,5 +24,3 @@ PythonとVS Codeのインストール方法、基本的な概念、print関数�
 
 
 ※これを作成する上でOpenAI社のChatGPTを使用しました。
-
-作成途中です。
