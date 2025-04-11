@@ -26,7 +26,7 @@ Pythonは構文が他のプログラミング言語と比べてシンプルで�
 
 ### Visual Studio Codeのインストール(任意)
 
-1.公式サイト(https://code.visualstudio.com/download)にアクセスしてwindows用のインストーラをダウンロードします。
+1.[公式サイト](https://code.visualstudio.com/download)にアクセスしてwindows用のインストーラをダウンロードします。
 
 2.ダウンロードしたインストーラを起動します。
 
