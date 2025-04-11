@@ -11,3 +11,5 @@ Netflix ![netflix](https://github.com/user-attachments/assets/658b2f0c-840f-4c9f
 vscode ![vscode](https://github.com/user-attachments/assets/4d476693-ac0d-4a77-9897-2d416311e9e2)
 ## javascriptの最初の一歩
 じゃあjavascriptのコードを書いてみよう。
+vscodeをインストールする
+https://code.visualstudio.com/
