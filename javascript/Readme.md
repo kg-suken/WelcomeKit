@@ -13,3 +13,8 @@ vscode ![vscode](https://github.com/user-attachments/assets/4d476693-ac0d-4a77-9
 じゃあjavascriptのコードを書いてみよう。
 vscodeをインストールする
 https://code.visualstudio.com/
+上のURLからvscodeをダウンロードしてください。
+また日本語かしたい場合はvscodeのサイドバーの上から五番目の拡張機能からJapanese Language Pack for Visual Studio Codeをダウンロードしてください。
+まずワークフォルダーを作成してください。名前はjavascript-projectなどがいいでしょう
+その中にこのチュートリアル用のフォルダーをを作ってください。
+その中にまずindex.htmlとapp.jsを作成してください。
