@@ -1,4 +1,4 @@
-# Javascript講座
+# Javascript講座1
 ## javascriptとは
 簡単に言うとブラウザ上で動く
 プログラミング言語です。
