@@ -21,7 +21,7 @@ https://code.visualstudio.com/<br>
 ファイル構成は以下のようになります。<br>
 javascript-project/このチュートリアル用のフォルダー<br>
              　　　 ├── index.html<br>
-　　　　　　　　　　　                     ├── app.js<br>
+　　　　　　　　　　　  ├── app.js<br>
 index.htmlの中身はこのjavascriptフォルダーのルートにおいておくのでコピーアンドペーストしてください。<br>
 そしてapp.jsの中に以下のようなコードを追加してください。  
 console.log("helloworld");<br>
@@ -29,6 +29,21 @@ console.log("helloworld");<br>
 そしたらブラウザ開発者ツールを開いてconsoleタブを参照してください。<br>
 ブラウザ開発者ツールはwindowsの場合ctrl+alt+i Macの場合cmd+option+iで開けます。  
 ![スクリーンショット 2025-04-12 14 05 57](https://github.com/user-attachments/assets/c82ccb2d-21bc-48f0-a50f-6518ffb7d9bf)  
-編集の様子
+編集の様子<br>
 すると以下の写真のようになるのではないでしょうか？<br>
 ![スクリーンショット 2025-04-12 14 09 21](https://github.com/user-attachments/assets/f45bd3cf-d356-40cd-8a7f-21ccf5e7e468)
+console.log()とはログに表示するメソッドです。  
+メソッドとは簡単に説明すると何かを受け取った時に何らかの値を返すものです。  
+console.log()で言うと()の中に文字列のhelloworldという値を入れてログにhelloworldという文字列を表示するという結果を返しているのです。  
+もしここまででうまく動作しなかった場合は以下のようなことを確認してください。  
+console.logの綴りは合っているか？  
+helloworldをシングルクオーテーション('')またはダブルクォーテーション("")で囲っているか？  
+またもしうまくいかなかった場合は  
+赤色の文字が出るのではないでしょうか？  
+これはエラーといいどこが間違えているのかを具体的に教えてくれるヒントのようなものです。  
+![スクリーンショット 2025-04-12 14 18 29](https://github.com/user-attachments/assets/49fa4eaf-8b77-4427-a59b-193cc55ea485)
+エラーの写真
+このエラーメッセージを読んだり、調べたり、AIに聞いたりして  
+問題解決を行なったりします。
+
+
