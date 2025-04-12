@@ -18,7 +18,7 @@ https://code.visualstudio.com/<br>
 まずワークフォルダーを作成してください。名前はjavascript-projectなどがいいでしょう<br>
 その中にこのチュートリアル用のフォルダーをを作ってください。<br>
 その中にまずindex.htmlとapp.jsを作成してください。<br>
-ファイル構成は以下のようになります。
+ファイル構成は以下のようになります。<br>
 javascript-project/このチュートリアル用のフォルダー<br>
              　　　 ├── index.html<br>
 　　　　　　　　　　　  ├── app.js<br>
