@@ -28,3 +28,5 @@ console.log("helloworld");<br>
 またブラウザ（多くの場合はChrome）を開いてhtmlをドラックアンドドロップしてください。<br>
 そしたらブラウザ開発者ツールを開いてconsoleタブを参照してください。<br>
 ブラウザ開発者ツールはwindowsの場合ctrl+alt+i Macの場合cmd+option+iで開けます。  
+![スクリーンショット 2025-04-12 14 05 57](https://github.com/user-attachments/assets/c82ccb2d-21bc-48f0-a50f-6518ffb7d9bf)  
+編集の様子
