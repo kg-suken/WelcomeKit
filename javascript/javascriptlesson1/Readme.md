@@ -21,5 +21,5 @@ https://code.visualstudio.com/<br>
 ファイル構成は以下のようになります。<br>
 javascript-project/このチュートリアル用のフォルダー<br>
              　　　 ├── index.html<br>
-　　　　　　　　　　　  ├── app.js<br>
+　　　　　　　　　　　                     ├── app.js<br>
 index.htmlの中身はこのjavascriptフォルダーのルートにおいておくのでコピーアンドペーストしてください。<br>
