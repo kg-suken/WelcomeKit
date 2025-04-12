@@ -13,4 +13,5 @@ let hoge = 10;
 じゃあこのようなコードはどうなるでしょう？  
 let hoge = 10;  
 console.log(hoge);  
-
+![スクリーンショット 2025-04-12 14 52 44](https://github.com/user-attachments/assets/99d61a73-4474-465f-b655-5640a0c53821)
+上の写真のようになるのではないでしょうか？
