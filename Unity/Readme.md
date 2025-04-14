@@ -16,6 +16,6 @@ Unity Hubと、Unityエディターをダウンロード・インストールし
 ### [2.2Dで早速やってみよう](https://github.com/kg-suken/WelcomeKit/tree/main/Unity/2-LetsTry)
 既存のプロジェクトを読み込み、実際にいろいろやってみます。
 ### [3.3Dにチャレンジ!](https://github.com/kg-suken/WelcomeKit/tree/main/Unity/3-challenge3D)
-3Dプロジェクトのテンプレートを読み込み、オブジェクトを配置します。
+3Dプロジェクトのテンプレートを読み込み、実際に簡単な操作を体験します。
 ### [4.スクリプトを書いてみよう!](https://github.com/kg-suken/WelcomeKit/tree/main/Unity/4-WriteScript)
-実際にスクリプトを書いて、キャラを動かせるようにします。
+実際にスクリプトを書いて、プレイヤーの動きを変えてみます。
