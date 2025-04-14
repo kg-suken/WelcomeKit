@@ -4,7 +4,7 @@
 https://github.com/user-attachments/assets/c48d9609-8f92-4515-8314-95e74bd1dd70  
 ## 1.プロジェクトを準備しよう
 以下のリンクから「UnityEdu2.zip」をダウンロードして開いてください。  
-https://github.com/kg-suken/WelcomeKit/raw/refs/heads/main/Unity/3-challenge3D/UnityEdu2.zip  
+(一時配信停止中) 
 開き方は先ほどの内容を参考に　[2.2Dでやってみよう](https://github.com/kg-suken/WelcomeKit/tree/main/Unity/2-LetsTry)  
 開き終わったら、Scenesフォルダの中にあるSampleSceneというシーンを開いてください。  
 開き終わったら、下の画面になってると思います。  
@@ -25,5 +25,5 @@ Hierarchyタブから、「zimenn」を選択し、Inspectorタブの「Transfor
 枠で囲んだ部分を見てください。ここでは「Tag」を設定することができます。  
 このタグを設定することで、オブジェクト同紙に区別をつけたり、当たり判定の区別ができます。  
 今回はあらかじめ用意していますので、「zimenn」というタグを設定してください。  
-これでジャンプができると思います。  
+これでスペースキーでジャンプができると思います。  
 これでPart3はおしまいです。お疲れさまでした!
