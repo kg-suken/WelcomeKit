@@ -56,5 +56,10 @@ console.log(hoge);
 具体例は下のコードです。
 hoge = "helloworld";
 console.log(hoge);
-コンソールにhelloworldと表示されます。
+コンソールにhelloworldと表示されます。  
+このような文字列はstring型とよばれています。  
+undefindも一つの型です。  
+undefind型です。  
+## 条件分岐
+
 
