@@ -9,7 +9,7 @@ Windows
 ## C++とは?
 C++は、1983年に誕生したプログラミング言語です。とにかく実行速度が速いのが特徴で、OSなどのスピードが必要なプログラムによく使われます。  
 ## 内容
-### 1.環境構築  
+### [1.環境構築](https://github.com/kg-suken/WelcomeKit/tree/main/cpp/1-install)  
 VSCodeやWSLをインストールし、環境構築をします。
 ### 2.「Hello,World!」を出力  
 最初の一歩となる「Hello,World!」を出力します。  
