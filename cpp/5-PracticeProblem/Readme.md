@@ -6,6 +6,6 @@
 1-2.次のような出力をするプログラムを書いてください。  
 ```
 Suken does not study math.
-Suken clubmember are using Personal Computer.
+Suken clubmembers are using Personal Computer.
 ```
 ここから先は、現在作成中です。
