@@ -21,7 +21,7 @@ using namespace std;
 
 int main(){
     cout << "Suken does not study math." << endl;
-    cout << "Suken clubmember are using Personal Computer." << endl;
+    cout << "Suken clubmembers are using Personal Computer." << endl;
     return 0;
 }
 ```
@@ -32,7 +32,7 @@ int main(){
 using namespace std;
 
 int main(){
-    cout << "Suken does not study math." << endl << "Suken clubmember are using Personal Computer." << endl;
+    cout << "Suken does not study math." << endl << "Suken clubmembers are using Personal Computer." << endl;
     return 0;
 }
 ```
