@@ -20,16 +20,22 @@ let hoge = 10;
 ```
 これはhogeという変数に10を代入しています。  
 じゃあこのようなコードはどうなるでしょう？  
+```javascript
 let hoge = 10;  
-console.log(hoge);  
+console.log(hoge);
+```
 ![スクリーンショット 2025-04-12 14 52 44](https://github.com/user-attachments/assets/99d61a73-4474-465f-b655-5640a0c53821)
 上の写真のようになるのではないでしょうか？  
 つまりhogeの中身をconsole.log()が表示しているのです。
 ### 値を入れない変数
-let hoge;  
+```javascript
+let hoge;
+```
 このようなことも可能です。  
+```javascript
 let hoge;  
-console.log(hoge);  
+console.log(hoge);
+```
 上のようなコードを実行するとどうなるでしょうか？  
 おそらくconsoleタブの中にundefindという文字が表示されるのではないでしょうか？  
 これはコンピューターが変数hogeには何も入っていないと判断し、hogeには何も入っていないことを伝えているのです。  
@@ -38,9 +44,10 @@ console.log(hoge);
 再代入できない変数のことです。<br>
 こういわれてもなにか分からないとおもうのですが、<br>
 つまり以下のようなコードはNGです。<br>
-const hoge = 10;<br>
-hoge = 11;　＊定数はconstで宣言します。<br>
-
+```javascript
+const hoge = 10;
+hoge = 11;　＊定数はconstで宣言します。
+```
 ### 定数の宣言文法<br>
 const 定数名 = 初期値;<br>
 基本的には変数と使い方は同じです。  
