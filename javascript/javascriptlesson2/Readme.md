@@ -48,6 +48,9 @@ console.log(hoge);
 const hoge = 10;
 hoge = 11;　//＊定数はconstで宣言します。
 ```
+> **Note**
+> これは注意点や補足を説明する場所です。
+
 ### 定数の宣言文法<br>
 ```javascript
 const 定数名 = 初期値;
