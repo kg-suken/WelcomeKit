@@ -26,6 +26,7 @@ index.htmlの中身はこのjavascriptフォルダーのルートにおいてお
 そしてapp.jsの中に以下のようなコードを追加してください。  
 ```javascript
 console.log("helloworld");<br>
+````
 またブラウザ（多くの場合はChrome）を開いてindex.htmlをドラックアンドドロップしてください。<br>
 そしたらブラウザ開発者ツールを開いてconsoleタブを参照してください。<br>
 ブラウザ開発者ツールはwindowsの場合ctrl+alt+i Macの場合cmd+option+iで開けます。  
