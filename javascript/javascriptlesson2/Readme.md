@@ -10,10 +10,14 @@ console.log("hellosuken");
 変数とはその名の通り変わりうる値です。  
 javascriptでは変数をletで宣言します。  
 ### 変数の文法
-let 変数名 = 初期値;  
+```javascript
+let 変数名 = 初期値;
+```
 変数に初期値を代入することを初期化と言います。  
 具体例を見てみましょう。  
-let hoge = 10;  
+```javascript
+let hoge = 10;
+```
 これはhogeという変数に10を代入しています。  
 じゃあこのようなコードはどうなるでしょう？  
 let hoge = 10;  
