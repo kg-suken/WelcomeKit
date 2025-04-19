@@ -24,6 +24,7 @@ javascript-project/このチュートリアル用のフォルダー<br>
 　　　　　　　　　　　  ├── app.js<br>
 index.htmlの中身はこのjavascriptフォルダーのルートにおいておくのでコピーアンドペーストしてください。<br>
 そしてapp.jsの中に以下のようなコードを追加してください。  
+```javascript
 console.log("helloworld");<br>
 またブラウザ（多くの場合はChrome）を開いてindex.htmlをドラックアンドドロップしてください。<br>
 そしたらブラウザ開発者ツールを開いてconsoleタブを参照してください。<br>
