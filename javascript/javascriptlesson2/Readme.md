@@ -46,13 +46,17 @@ console.log(hoge);
 つまり以下のようなコードはNGです。<br>
 ```javascript
 const hoge = 10;
-hoge = 11;　＊定数はconstで宣言します。
+hoge = 11;　//＊定数はconstで宣言します。
 ```
 ### 定数の宣言文法<br>
-const 定数名 = 初期値;<br>
+```javascript
+const 定数名 = 初期値;
+```
 基本的には変数と使い方は同じです。  
-const hoge;<br>
-console.log(hoge);  
+```javascript
+const hoge;
+console.log(hoge);
+```
 のようなことも可能です。  
 定数は何回もつかう値に名前をつけたりするのに使ったりなどします。<br>
 また再代入する必要がない場合であれば<br>
@@ -67,10 +71,13 @@ console.log(hoge);
 変数には文字列もいれられます。  
 文字列はダブルクォーテーション（""）またはシングルクォーテーション（'')で囲うと文字列として認識されます。  
 具体例は下のコードです。
+```javascript
+const hoge;
 hoge = "helloworld";
 console.log(hoge);
+```
 コンソールにhelloworldと表示されます。  
-このような文字列はstring型とよばれています。  
+このような文字列はString型とよばれています。  
 undefindも一つの型です。  
 undefind型です。  
 ### 練習問題2
@@ -81,13 +88,16 @@ undefind型です。
 条件分岐とはしていした条件で処理を分岐することです。
 scratchなどをやったことがあるひとなら見当がつくとおもうのですが、もしなになにならのブロックです。  
 ### if文の構文
+```javascript
 if (条件式）{<br>
-   処理<br>
-}<br>
+   処理
+}
+```
 このような構文となっています。  
 具体例は以下のようになっております。  
+```javascript
 const hoge = 10;  
 if (hoge === 10){  
-console.log("hogeは１０です。");<br>
+console.log("hogeは10です。");
 };
-
+```
