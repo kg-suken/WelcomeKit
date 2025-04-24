@@ -11,10 +11,10 @@ Suken clubmembers are using Personal Computer.
 ## 2.「3.入力と演算」関連
 2-1.次のプログラムで、4つの変数と、その中身が与えられます。正しく設定されているものと、間違えているものを分け、間違えているものは修正してください。  
 ```cpp
-    int i = 55;
-    double d = "sss";
-    string s = true;
-    bool b = 3.1111;
+int i = 55;
+double d = "sss";
+string s = true;
+bool b = 3.1111;
 ```
 2-2.2つの数字を入力してもらった後、それを掛け算して出力するプログラムを書いてください。  
 例  
