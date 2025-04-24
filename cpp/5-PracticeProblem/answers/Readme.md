@@ -36,4 +36,27 @@ int main(){
     return 0;
 }
 ```
-現在、問題を作成中です。
+## 2.「3.入力と演算」関連
+2-1  
+※この答え方は一例です。  
+変数の型は、正しく使い分けできるようにしましょう。元のコードを崩さないなら、  
+```cpp
+int i = 55; //intは整数
+double d = 3.1111; //doubleは小数
+string s = "sss"; //string(正確にはstd::string)は文字列
+bool b = true; //boolは真偽(trueかfalse)
+```
+ですね。intの行だけ正しく、ほかの部分は間違っています。  
+2-2
+最後に見せたサンプルプログラムとほとんど変わりません。+を*にしただけです。
+```cpp
+#include <iostream>
+using namespace std;
+
+int main(){
+    int a , b;
+    cin >> a >> b; //数字を2つ入力
+    cout << a * b << endl; //2つの入力した数字を掛け算して出力
+    return 0;
+}
+```
