@@ -78,4 +78,4 @@ cinでは複数の変数に入力できますが、その区切りは空白ま�
 ```
 としても、結果は変わりません。  
 ## 4.練習問題を解いてみよう
-現在作成中です。
+[練習問題](https://github.com/kg-suken/WelcomeKit/tree/main/cpp/5-PracticeProblem#23%E5%85%A5%E5%8A%9B%E3%81%A8%E6%BC%94%E7%AE%97%E9%96%A2%E9%80%A3)に飛んで、解いてください。
