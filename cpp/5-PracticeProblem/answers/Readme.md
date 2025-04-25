@@ -46,8 +46,8 @@ double d = 3.1111; //doubleは小数
 string s = "sss"; //string(正確にはstd::string)は文字列
 bool b = true; //boolは真偽(trueかfalse)
 ```
-ですね。intの行だけ正しく、ほかの部分は間違っています。  
-2-2
+になります。intの行だけ正しく、ほかの部分は間違っています。  
+2-2  
 最後に見せたサンプルプログラムとほとんど変わりません。+を*にしただけです。
 ```cpp
 #include <iostream>
@@ -58,5 +58,17 @@ int main(){
     cin >> a >> b; //数字を2つ入力
     cout << a * b << endl; //2つの入力した数字を掛け算して出力
     return 0;
+}
+```
+2-3  
+文字列を入力するので、string型の変数に値を入れましょう。ちなみにこのプログラムでは、改行に\nを使用しています。
+```cpp
+#include <iostream>
+using namespace std;
+
+int main(){
+    string name;
+    cin >> name;
+    cout << "Hello," << name << "!\n";
 }
 ```
