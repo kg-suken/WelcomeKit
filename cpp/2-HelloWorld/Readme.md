@@ -30,4 +30,4 @@ int main(){
 また、```return 0;```を最後に打つことで、「このプログラムは正常に終了しました」というシグナルを出します。  
 ということで雑ですが、解説は終了です!  
 ## 3.練習問題を解いてみよう
-[練習問題](https://github.com/kg-suken/WelcomeKit/tree/main/cpp/5-PracticeProblem#12helloworld%E3%81%AE%E5%87%BA%E5%8A%9B%E9%96%A2%E9%80%A3)に飛んで、練習問題を解いてみてください。
+[練習問題](https://github.com/kg-suken/WelcomeKit/tree/main/cpp/5-PracticeProblem#12helloworld%E3%81%AE%E5%87%BA%E5%8A%9B%E9%96%A2%E9%80%A3)に飛んで、解いてみてください。
