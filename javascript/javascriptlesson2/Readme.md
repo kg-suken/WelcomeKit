@@ -1,7 +1,9 @@
 ## javascript講座2
 ここではjavascriptの基礎知識を学んでいきます。  
 index.htmlの中身はこのフォルダーのルートに配置しておきますので、コピーアンドペーストをしておいてください。  
-またapp.jsなどのファイルを編集した場合は必ずブラウザを再読み込み（リロード）してください。
+またapp.jsなどのファイルを編集した場合は必ずブラウザを再読み込み（リロード）してください。  
+また、この講座ではサンプルコードが頻出しますが、自分の環境で動かすことを推奨します。
+またjavascriptProblemsという問題集もあるため、是非解いてみてください。
 ## 問題1の答え
 ```javascript
 console.log("hellosuken");
@@ -202,6 +204,87 @@ while(条件式){
 ```javascript
 const hoge = 0;
 while(hoge < 5){
-   console.log(hoge)
+   console.log(hoge);
 }
 ```
+## 関数
+関数とは何らかの値を受けとったとき、何らかの値を返すものです。  
+例えば y = 2x　という1次関数があった場合、xに1を代入するとyは2になりますよね。これをプログラミングで実装すると、
+```javascript
+function hoge(x){
+   y = 2 * x;
+   return y;
+}
+```
+となります。  
+この時xのことを仮引数と呼びます。また、yのことを戻り値といいます。  
+戻り値を返すときはreturn文を使います。  
+しかし、このままではまだ関数は使えません。これはただ単に関数の雛形を作ったにしか過ぎないので、関数を呼び出して使っていきましょう。
+```javascript
+hoge(2)
+```
+そうすると以下の結果が得られるのではないでしょうか？  
+```
+4
+```
+また、これが何に使えるのかと思った人もいるのではないでしょうか？  
+関数はプログラムをまとめることができます。例えばこのようなコードがあったとしましょう。  
+```javascript
+const hoge = 10
+if(hoge === 5){
+   console.log("hogeは5です。");
+}
+else if(hoge === 10){
+   console.log("hogeは10です。");
+}
+else if(hoge === 15){
+   console.log("hogeは15です。");
+}
+else if(hoge === 20){
+   console.log("hogeは20です。");
+}
+const hoge2 = 15
+if(hoge === 5){
+   console.log("hogeは5です。");
+}
+else if(hoge === 10){
+   console.log("hogeは10です。");
+}
+else if(hoge === 15){
+   console.log("hogeは15です。");
+}
+else if(hoge === 20){
+   console.log("hogeは20です。");
+}
+```
+これを何回も書いていてはコードの見通しは悪くなるし、めんどくさいですよね。なのでこれを関数かしてしまえば一回書くだけで済むのです。
+サンプルコードはこちらです。
+```javascript
+function hoge(x){
+if(x === 5){
+   console.log("hogeは5です。");
+}
+else if(x === 10){
+   console.log("hogeは10です。");
+}
+else if(x === 15){
+   console.log("hogeは15です。");
+}
+else if(x === 20){
+   console.log("hogeは20です。");
+}
+}
+const hogehoge = 10;
+const hogege = 20;
+hoge(hogehoge)
+hoge(hogege)
+```
+どうでしょうか？だいぶ見やすくなったのではなくないでしょうか？  
+関数の構文はこちらです。
+```javascript
+function 関数名 (引数){
+   関数の処理
+}
+```
+>[!Note]  
+> console.log()を当たり前のように書いてきましたが、実はこれも大きく分ければ関数です。私たちがコンソールに出力するときに、この一行で済むのはconsole.log()という関数を呼び出しているおかげです。
