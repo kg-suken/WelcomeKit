@@ -154,7 +154,7 @@ else if(hoge === 20){
 }
 ```
 またどの条件にも当てはまらなった場合はelse文を使います。
-### else if 文
+### else文
 ```javascript
 if(条件式){
 処理
@@ -167,9 +167,10 @@ else{
 ```javascript
 const hoge = 10;
 if(hoge === 10){
-   console.log("hogeは10です。")
+   console.log("hogeは10です。");
 }
 else{
-   console.log("hogeは10ではありません。")
+   console.log("hogeは10ではありません。");
 }
 ```
+##for
