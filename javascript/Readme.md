@@ -2,9 +2,9 @@
 こんにちはyochancodemakerです。  
 この講座ではjavascriptの基礎を楽しく学んでいきましょう  
 ## この講座の説明
-- ### [javaScriptlesson1](https://github.com/kg-suken/WelcomeKit/tree/main/javascript/javascriptlesson1/)　
+### [javascriptlesson1](https://github.com/kg-suken/WelcomeKit/tree/main/javascript/javascriptlesson1/)　
 環境構築とJavascriptの世界に入り込む。
-#### javascriptlesson2
+####  [javascriptlesson2](https://github.com/kg-suken/WelcomeKit/tree/main/javascript/javascriptlesson2/)　
 Javascriptの基本文法について学ぶ
 #### javascriptlesson3
 今まで学んだ知識を使ってFizzBuzzGameを作る。
