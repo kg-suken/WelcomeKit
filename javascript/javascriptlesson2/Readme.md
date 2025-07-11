@@ -153,7 +153,8 @@ else if(hoge === 20){
    console.log("hogeは20です。");
 }
 ```
-またどの条件にも当てはまらなった場合はelse分を使います。
+またどの条件にも当てはまらなった場合はelse文を使います。
+### else if 文
 ```javascript
 if(条件式){
 処理
