@@ -300,7 +300,7 @@ const 関数名 = () => {
 ```
 1次関数　y = 2x　をアロー関数で書いてみます。
 ```javascript
-const hoge = () =>{
+const hoge = (x) =>{
    const y = 2 * x;
    return y;
 }

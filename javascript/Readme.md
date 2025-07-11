@@ -5,11 +5,11 @@
 ### [javascriptlesson1](https://github.com/kg-suken/WelcomeKit/tree/main/javascript/javascriptlesson1/)　
 環境構築とJavascriptの世界に入り込む。
 ### [javascriptlesson2](https://github.com/kg-suken/WelcomeKit/tree/main/javascript/javascriptlesson2/)　
-Javascriptの基本文法について学ぶ
-### javascriptlesson3
-今まで学んだ知識を使ってFizzBuzzGameを作る。
+Javascriptの基本文法について学ぶ。
+### [javascriptProblems](https://github.com/kg-suken/WelcomeKit/tree/main/javascript/javascriptProblems)
+学んだ知識で問題をとき定着させる。
 ### javascriptlesson4
-JavascriptのフロントエンドフレームワークReactの超入門
+HTML and CSS と Javascriptを組み合わせて実践的なプロジェクトを作る。
 ## 作者について
 講座を始める前に自己紹介を軽くさせていただきますと  
 私がプログラミングに触れたのは小学生の頃にscratchでゲームを作ったことが始まりです。<br>
