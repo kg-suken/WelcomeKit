@@ -142,10 +142,33 @@ console.log("hogeは10です。");
 };
 ```
 またif文の条件に当てはまらず、そうでなければの条件を加えたいときにはelse if文を使います。
+基本的な使い方はif文と同じです  
 ### else if 文
 ```javascript
-const hoge = 10;  
+const hoge = 20;  
 if (hoge === 10){  
 console.log("hogeは10です。");
 };
+else if(hoge === 20){
+   console.log("hogeは20です。");
+}
+```
+またどの条件にも当てはまらなった場合はelse分を使います。
+```javascript
+if(条件式){
+処理
+}
+else{
+処理
+}
+```
+サンプルコードはこちらです。
+```javascript
+const hoge = 10;
+if(hoge === 10){
+   console.log("hogeは10です。")
+}
+else{
+   console.log("hogeは10ではありません。")
+}
 ```
