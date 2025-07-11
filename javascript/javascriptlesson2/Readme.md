@@ -190,3 +190,18 @@ for(let i = 0;i<5;i++){
 // i++はiを1増やすという意味。
 ```
 このコードは処理は5回繰り返します。
+### while文
+while文とは条件が当てはまっているときずっと処理を繰り返し続ける命令です。
+#### while文の構文
+```javascript
+while(条件式){
+   繰り返す条件
+}
+```
+サンプルコードはこちら
+```javascript
+const hoge = 0;
+while(hoge < 5){
+   console.log(hoge)
+}
+```
