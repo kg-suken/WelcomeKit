@@ -143,12 +143,9 @@ console.log("hogeは10です。");
 ```
 またif文の条件に当てはまらず、そうでなければの条件を加えたいときにはelse if文を使います。
 ### else if 文
-```javasript
-const hoge = 11;
-if (hoge === 10){
-   console.log()
-}
-else if (hoge === 10){
-   
-}
+```javascript
+const hoge = 10;  
+if (hoge === 10){  
+console.log("hogeは10です。");
+};
 ```
