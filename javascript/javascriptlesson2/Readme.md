@@ -39,7 +39,7 @@ let hoge;
 console.log(hoge);
 ```
 上のようなコードを実行するとどうなるでしょうか？  
-おそらくconsoleタブの中にundefindという文字が表示されるのではないでしょうか？  
+おそらくconsoleタブの中にundefinedという文字が表示されるのではないでしょうか？  
 これはコンピューターが変数hogeには何も入っていないと判断し、hogeには何も入っていないことを伝えているのです。
 ## 再代入
 変数には再代入というきのうがあります。  
@@ -68,12 +68,7 @@ hoge = 11;　//＊定数はconstで宣言します。
 ```javascript
 const 定数名 = 初期値;
 ```
-基本的には変数と使い方は同じです。  
-```javascript
-const hoge;
-console.log(hoge);
-```
-のようなことも可能です。  
+基本的には変数と使い方は同じです。   
 定数は何回もつかう値に名前をつけたりするのに使ったりなどします。<br>
 また再代入する必要がない場合であれば<br>
 定数を使いましょう。  
@@ -88,14 +83,14 @@ console.log(hoge);
 文字列はダブルクォーテーション（""）またはシングルクォーテーション（'')で囲うと文字列として認識されます。  
 具体例は下のコードです。
 ```javascript
-const hoge;
+let hoge;
 hoge = "helloworld";
 console.log(hoge);
 ```
 コンソールにhelloworldと表示されます。  
 このような文字列はString型とよばれています。  
-undefindも一つの型です。  
-undefind型です。  
+undefinedも一つの型です。  
+undefined型です。  
 ### 練習問題2
 "helloworld"は何型ですか？<br>
 ## 演算子
@@ -180,7 +175,7 @@ else{
 for文は決まった回数を繰り返しできる機能です。
 ### for文の構造
 ```javascript
-for(仮変数;繰り返す条件;繰り返した後に実行する処理){
+for(初期値;繰り返す条件;一回繰り返すごとに実行する処理){
    繰り返す処理
 }
 ```
@@ -192,19 +187,24 @@ for(let i = 0;i<5;i++){
 // i++はiを1増やすという意味。
 ```
 このコードは処理は5回繰り返します。
+> [!WARNING]
+> for文では初期値に1を足して毎回代入することを行なっているので、
+>初期値の変数はletで宣言してください。
 ### while文
 while文とは条件が当てはまっているときずっと処理を繰り返し続ける命令です。
 #### while文の構文
 ```javascript
 while(条件式){
-   繰り返す条件
+   繰り返す処理
+　　一回繰り返すごとに実行する処理
 }
 ```
 サンプルコードはこちら
 ```javascript
-const hoge = 0;
+let hoge = 0;
 while(hoge < 5){
    console.log(hoge);
+   hoge++;
 }
 ```
 ## 関数
@@ -212,7 +212,7 @@ while(hoge < 5){
 例えば y = 2x　という1次関数があった場合、xに1を代入するとyは2になりますよね。これをプログラミングで実装すると、
 ```javascript
 function hoge(x){
-   y = 2 * x;
+   const y = 2 * x;
    return y;
 }
 ```
