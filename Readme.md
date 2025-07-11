@@ -15,6 +15,7 @@
 - ### [Python](https://github.com/kg-suken/WelcomeKit/tree/main/Python)　作成:らぷか
 - ### [Unity](https://github.com/kg-suken/WelcomeKit/tree/main/Unity)　作成:Pencil
 - ### [JavaScript](https://github.com/kg-suken/WelcomeKit/tree/main/javascript)　作成:yochancodemaker
+- - ### [JavaScript](https://github.com/kg-suken/WelcomeKit/tree/main/javascript/javascriptProblems)　作成:misosoupman
 - ### [C++](https://github.com/kg-suken/WelcomeKit/tree/main/cpp)　作成:Pencil
 
 ## 方針
