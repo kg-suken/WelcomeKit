@@ -7,7 +7,7 @@
 ### [javascriptlesson2](https://github.com/kg-suken/WelcomeKit/tree/main/javascript/javascriptlesson2/)　
 Javascriptの基本文法について学ぶ。
 ### [javascriptProblems](https://github.com/kg-suken/WelcomeKit/tree/main/javascript/javascriptProblems)
-学んだ知識で問題をとき定着させる。
+学んだ知識で問題を解き定着させる。
 ### javascriptlesson4
 HTML and CSS と Javascriptを組み合わせて実践的なプロジェクトを作る。
 ## 作者について
