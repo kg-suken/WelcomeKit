@@ -184,7 +184,7 @@ for(仮変数;繰り返す条件;繰り返した後に実行する処理){
 ```
 サンプルコード
 ```javascript
-for(let i = 0;i>5;i++){
+for(let i = 0;i<5;i++){
    console.log(i);
 }
 // i++はiを1増やすという意味。
