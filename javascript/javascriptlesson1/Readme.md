@@ -39,6 +39,8 @@ console.log("helloworld");
 >node javascriptファイル名で実行できます。  
 >この場合では  
 >node app.js です。
+
+
 console.log()とはログに表示するメソッドです。  
 メソッドとは簡単に説明すると何かを受け取った時に何らかの値を返すものです。  
 console.log()で言うと()の中に文字列のhelloworldという値を入れてログにhelloworldという文字列を表示するという結果を返しているのです。  
