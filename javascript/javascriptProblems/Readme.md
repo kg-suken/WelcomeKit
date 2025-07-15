@@ -1,6 +1,6 @@
 # javascriptProblems
 javascriptの問題集です。
-## 
+## まず最初に
 ### ①　「hellojapan」を表示しなさい。
 ### ②　「2025715」を表示しなさい。
 ### ③　「Bonjour」と「Hola」を上下に表示しなさい。
