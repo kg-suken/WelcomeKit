@@ -23,3 +23,4 @@ javascriptの問題集です。
 ## 再代入
 ### ①　「ramen」という変数に「menma」を代入してそれに「ontama」を再代入して表示しなさい。
 ### ②　「hakumai」という変数に「furikake」を代入してそれに「namatamago」を再代入し、さらに「nori」を再代入して表示しなさい。
+## 定数
