@@ -46,4 +46,24 @@ CSSでいじりたい要素はタグ名で指定できますが、同じタグ�
 
 ```
 `.`を前につけることで指定できます
-
+## 見た目を変えてみよう
+### 色を変える
+`color`を使います。設定できる値は色コード(hex)、RGB、あるいは単に英語で色の名前を指定できます。
+```
+black   黒
+white   白
+red     赤
+blue    青
+green   緑
+yellow  黄色
+orange  オレンジ
+purple  紫
+pink    ピング
+gray    灰色
+brown   茶色
+cyan    シアン
+magenta マゼンタ
+lime    ライム
+silver  シルバー
+などなど...
+```
