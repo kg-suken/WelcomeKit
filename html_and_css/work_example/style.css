@@ -1,0 +1,13 @@
+/*メインカラー */
+.color {
+  color: blue;
+}
+/*フォントを使う*/
+h1 {
+	font-family:"MS P明朝";
+}
+
+/* お気に入りの趣味（大きく） */
+.favorite {
+  font-size: 24px;
+}
