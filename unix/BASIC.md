@@ -44,6 +44,32 @@ help.txt
 $ cat help.txt
 Wanna help?
 ```
+## mkdir
+ディレクトリの作成
+```
+$ ls
+Pictures
+$ mkdir Desktop
+$ ls
+Desktop Pictures
+```
+## rm
+ファイル、ディレクトリの削除
+```
+$ ls
+help.txt hoge.txt
+$ rm help.txt
+$ ls
+hoge.txt
+```
+ディレクトリを削除する場合は`-rf`オプションを用いる
+```
+$ ls
+Desktop Pictures
+$ rm -rf Pictures
+$ ls
+Desktop
+```
 ## `grep`
 簡易的なテキストの摘出。オプションなしで使用すると任意のテキストをハイライトして全文を表示してくれる。
 ```
