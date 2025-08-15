@@ -94,7 +94,39 @@ hello
 ```
 `-q`オプションは標準出力をせずに含む場合`exit0`(正常終了)→次のコマンドも実行される  
 含まない場合：`exit1`(失敗)→次のコマンドは実行されない
+前に実行したコマンドの実行結果を調べるには
+```
+$ echo $?
+```
+が使える。
+これの表示が
+`0`である場合は前回のコマンドが無事に実行された、それ以外はなんらかのエラーで失敗したことを意味する。
 
+# root権限
+ユーザーログイン時に`root`でログインしなかった場合、そのままだとコマンドは全て通常のユーザーの限られた権限で実行される。管理者権限で実行したい場合は実行したいコマンドの前に`sudo`をつける。(ユーザーがsudoグループになっていることが前提)
+```
+sudo loadkeys jp106
+```
+loadkeysはコンソールのキーボード配置を変更する。   
+sudoが実行される際にはユーザーパスワードの入力が求められる。
+ちなみにルートディレクトリ`/`に入り、
+```
+cd root
+```
+を行なおうとすると、`cd : permission denied: root`とエラーが吐かれる。権限がないと出ているので`sudo`を使用とすると
+```
+$ sudo cd root
+sudo: cd: command not found
+sudo: "cd" is a shell built-in command, it cannot be run directly.
+sudo: the -s option may be used to run a privileged shell.
+sudo: the -D option may be used to run a command in a specific directory.
+```
+とエラーがでる。これは`cd`というコマンドがシェルに依存しているため、そのままでは実行できないと出ている。よって、`-s`オプションを用いればシェルスクリプトを管理者で実行できる
+```
+$ sudo -s cd root
+
+```
+で入ることができる。ただ、`/root`は結局`/`にリダイレクトされるだけなので、特になにも変らない。
 ## `fzf`
 Unixコマンドではない外部の全文検索ツール。ログやリストをパイプで受け取り、TUIを操作して検索&選択できる(選択したものは標準出力される)   
 例
