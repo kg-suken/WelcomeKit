@@ -114,8 +114,6 @@ print('Oh!')
 
 print('Pen' + 'pineapple' + 'apple' + 'pen')
 
-print('すみませんでした。')
-
 ```
 
 出力は
