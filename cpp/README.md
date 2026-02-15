@@ -16,7 +16,7 @@ VSCodeやWSLをインストールし、環境構築をします。
 最初の一歩となる「Hello,World!」を出力します。  
 ### [3.入力と演算](https://github.com/kg-suken/WelcomeKit/tree/main/cpp/3-inputandcalculate)
 キーボードから入力を受け取り、足し算をするプログラムを作ります。
-### 4.条件分岐と繰り返し
+### [4.条件分岐と繰り返し](https://github.com/kg-suken/WelcomeKit/tree/main/cpp/4-branchandloop)
 初心者が作るプログラムとして有名な「FizzBuzz」を作ります。
 ### [5.練習問題](https://github.com/kg-suken/WelcomeKit/tree/main/cpp/5-PracticeProblem)
 2~4までで取り上げたことを使い、練習問題を解いてみましょう!
