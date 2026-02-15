@@ -17,7 +17,7 @@ C++では、変数を定義する際に、型というものを指定する必�
 とりあえず、例としてはこんな感じです。  
 ```cpp
 string test = "Hello,World!"; //string型の変数を定義し、その中に「Hello,World!」を入れた
-string a = "a" , string b = "b"; //複数の変数を定義できる
+string a = "a" , b = "b"; //複数の変数を定義できる
 cout << test << endl; //testの中身である、「Hello,World!」を出力する
 test = "bbbb"; //testに「bbbb」を代入
 cout << test << endl; //中身が変わり、「bbbb」が出力される
