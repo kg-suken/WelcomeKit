@@ -49,4 +49,4 @@ print(name + "さん")
 
 ## 演習課題
 
->> 今回の演習課題: [What's Your Student ID?](https://judge.suken.daemon.asia/problem/edu005)
+> 今回の演習課題: [What's Your Student ID?](https://judge.suken.daemon.asia/problem/edu005)
