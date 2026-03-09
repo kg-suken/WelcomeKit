@@ -14,5 +14,5 @@
 [2.Hello World!](./2.Hello_World!)  
 初めの一歩となる文字列の出力を学びます。
 
-[3.Variable & Function](./3.Variable%20%26%20Function)
+[3.Variable & Function](./3.Variable%20%26%20Function)  
 プログラミングで非常に重要な概念である変数と関数を学びます。
