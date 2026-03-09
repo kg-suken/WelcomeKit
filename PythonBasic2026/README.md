@@ -11,4 +11,4 @@
 [1.環境構築(プログラミングをするための準備)](./1.install)  
 プログラミングをするのに必要なものをインストールします。
 
-[2.Hello World!](PythonBasic2026/2.Hello World!)  
+[2.Hello World!](./2.Hello_World!)  
