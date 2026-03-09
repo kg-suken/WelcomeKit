@@ -6,6 +6,8 @@
 まずはコードを書き込むファイルを作りましょう。デスクトップに「Python」というフォルダを作ってください。(名前は別になんでもいいですがわかりやすいほうがいいです)  
 フォルダを作ったらその中にhelloworld.pyというファイルを作ってください。Pythonコードのファイルであることをパソコン側は「.py」の部分で読み取っていますので、名前を変える場合は.pyの部分だけは変えないでください。  
 できたら早速そのファイルをVisual Studio Code(以降vscodeと呼びます)で開きましょう。
+![folder image](./images/python_folder.png)
+![python file](./images/helloworld_file.png)
 
 ## 2.プログラムにしゃべらせよう
 
