@@ -140,8 +140,9 @@ if (bool型を返す条件式):
 
 例1
 ```python
+# 4を2で割った余りは1なので条件式はTrue
 if 4 % 2 == 0:
-  print("4 is even!)
+  print("4 is even!")
 ```
 
 実行結果
@@ -151,8 +152,9 @@ if 4 % 2 == 0:
 
 例2
 ```python
+# 5を2で割った余りは1なので条件式はFalse
 if 5 % 2 == 0:
-  print("5 is even!)
+  print("5 is even!")
 ```
 
 実行結果
@@ -160,4 +162,70 @@ if 5 % 2 == 0:
 
 ```
 (なにも実行されない)
+
+さらに、条件式がFalseだったときの処理も別に書くことができます。
+
+```python
+if (bool型を返す条件式):
+  (Trueの時の処理)
+else:
+  (Falseの時の処理)
+```
+
+例
+
+```python
+x = 4
+# 4を3で割った余りは1なので条件式はFalse
+if x % 3 == 0:
+  print("It is multiple of 3!")
+else:
+  print("It isn't multiple of 3!")
+
+x = 6
+
+# 6を3で割った余りは0なので条件式はTrue
+if x % 3 == 0:
+  print("It is multiple of 3!")
+else:
+  print("It isn't multiple of 3!")
+```
+
+実行結果
+```python
+It isn't multiple of 3!
+It is multiple of 3!
+```
+
+さらに、条件を複数個に分岐させることもできます。
+```python
+if (bool型を返す条件式1):
+  (1つ目の条件式がTrueの時の処理)
+elif (bool型を返す条件式2):
+  (1つ目の条件式がFalseで2つ目の条件式がTrueの時の処理)
+elif (bool型を返す条件式3):
+  (2つ目までの条件式がFalseで3つ目の条件式がTrueの時の処理)
+...
+else:
+  (すべての条件式がFalseの時の処理)
+```
+
+例
+```python
+x = 2
+if x > 3:
+  print("x is greater than 3!")
+elif x > 0:
+  print("x is greater than 0!")
+else:
+  print("x is less than 0!")
+```
+
+実行結果
+
+```python
+x is greater than 0!
+```
+
+xをさまざまな値に変更して実行してみると実行結果が変わるのもわかると思います。x=5,2,-3などの場合で試してみてください。
 
