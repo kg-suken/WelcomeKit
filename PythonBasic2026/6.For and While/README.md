@@ -41,7 +41,7 @@ for i in range(値の下限, 値の上限(に1を足した数), 公差(デフォ
 
 例
 ```python
-for i in range(-3, 7, 3):
+for i in range(-2, 8, 3):
   if i % 2 == 0:
     print(str(i) + " is even!")
   else:
@@ -50,9 +50,10 @@ for i in range(-3, 7, 3):
 
 実行結果
 ```python
--3 is odd!
-0 is even!
-3 is odd!
-6 is even!
+-2 is even!
+1 is odd!
+4 is even!
+7 is odd!
 ```
 
+## 演習課題
