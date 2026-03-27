@@ -56,4 +56,49 @@ for i in range(-2, 8, 3):
 7 is odd!
 ```
 
+# while文
+while文は条件式がTrueの間処理を繰り返す構文です。
+```python
+while (条件式):
+  (処理)
+```
+
+例
+```
+x = ""
+while x != "Yes":
+  x = input("Do you love me?")
+print("Thank you! But I don't like you so much, sorry.")
+```
+RPGとかでよくある承諾するまで次に進めないみたいな処理も実装できます。
+
+次の二つはほぼ同じ処理です。
+```python
+for i in range(10):
+  print(i)
+```
+```python
+i = 0
+while i < 10:
+  print(i)
+  i += 1
+```
+
+条件式がずっとTrueのままだと、**無限ループ**となります。
+```python
+while True:
+  print("Suken")
+```
+
+実行結果
+```python
+Suken
+Suken
+Suken
+....
+```
+(コードを止めない限り無限につづきます)
+
+コードを途中で止めるにはCTRLキーとCキーを同時に押します。
+
 ## 演習課題
