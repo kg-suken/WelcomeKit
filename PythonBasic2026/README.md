@@ -26,7 +26,7 @@
 [6.For and While](./6.For%20and%20While)
 これもまた非常に大切な繰り返し処理を扱う、for文とwhile文を学びます。
 
-[7.List,Tuple,Dictionary](./6.For%20and%20While)
+[7.List](./7.List)
 やっぱりこれも非常に大切なデータ構造のlist、tuple、dictionaryを扱います。
 
 ここまで出来たらPythonの入門編は完了です。
